@@ -1,7 +1,13 @@
-// Monsters game
+# Monsters game 
 
-/read in map
-f.read(map.txt'
+#read in world map containing cities 
+with open(map) as f:
+    for line in f:
+        city[i] = line
+        print 'Loading Map...'
 
-for n range (10000:
+
+#for n range 10000:
+
+    
     
