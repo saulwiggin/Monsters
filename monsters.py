@@ -73,11 +73,11 @@ for Nr in range (10,000):
         
     print 'Commense monster battle'
     if (all_same(monster_city) == false):
-         print 'MONSTER BATTTLLAAAAAALLL!!!!!!!!!'
+         print monster_city, 'has been destroyed by monster', N, 'and ',N 
          #del monster_city[i]
          #del city_list.find(monster_city)
          
-
+print 'printing remaining city list to .txt file'
 
 
     
