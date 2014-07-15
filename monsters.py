@@ -1,13 +1,15 @@
 # Monsters game 
 
 #read in world map containing cities 
-with open(map) as f:
+with open('map.txt') as f:
     for line in f:
-        city[i] = line
+        #city[i] = line
         print 'Loading Map...'
 
 
 #for n range 10000:
+
+#create monsters
 
     
     
