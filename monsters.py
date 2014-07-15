@@ -9,13 +9,15 @@ with open('map.txt') as f:
      print 'Loading Cities...'
      for line in f:     
         # load line into city, N, S, E and W
-        num = line.split() 
+        num = len(line.split()) 
         if (num == 5):
             city, N, S, E, W = line.split()
+            print city
         else:
         # Store Border City
         #city, N
-            print line
+            city, P1, P2, P3 = line.split()
+            print 'Border City', city
         
 #for n range 10000:
 
