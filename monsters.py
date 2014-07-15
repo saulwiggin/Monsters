@@ -10,6 +10,7 @@ with open('map.txt') as f:
 #for n range 10000:
 
 #create monsters
-
+    user_input = raw_input("Generate How many monsters?")
+    print 'You have generated', user_input, 'Monsters.'
     
     
